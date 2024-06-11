@@ -24,7 +24,7 @@ header{
     /* a cor do background está definida 
     em conjunto com o footer (acima)*/
 
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     padding: 10px;
     height: 70px;
