@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #092047;
+    background-color: #e5e9f1;
     a{text-decoration: none;}
 }
 
@@ -23,10 +23,8 @@ header, footer{
 header{
     /* a cor do background está definida 
     em conjunto com o footer (acima)*/
-
     /* position: fixed; */
     top: 0;
-    padding: 10px;
     height: 70px;
     display: grid;
     grid-template-columns: 10% 80% 10%;
@@ -92,10 +90,11 @@ header{
 }
 
 main{
-    margin: 70px 0 40px 0; /* distanciando do header e do footer */
+     /* distanciando do header e do footer */
     color: white;
-    min-height : 100%;
-
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
     .main-section-container {
         padding: 20px 0;
         display: grid;
