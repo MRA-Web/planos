@@ -49,7 +49,6 @@ header{
         margin-top: 15px;
         font-size: 120%;
     
-
         *{ /* todos dentro da nav.barra-navegacao */
             align-content: center; 
             text-align: center;
@@ -64,7 +63,7 @@ header{
                 margin: 0 28px;
                 margin-bottom: 8px;
                 border-radius: 30px;
-                transition: background-color 0.5s ease;
+                transition: background-color 0.3s ease;
 
                 a{
                     display: flex;
@@ -72,7 +71,7 @@ header{
                     padding: 8px;
                     padding-left: 20px;
                     padding-right: 20px;
-                   
+                    white-space: nowrap; /* Adicionado aqui */
                 }
                
                 a:hover{
@@ -119,11 +118,11 @@ main{
             background-color: #84c1ed;
             width: 100%;
             display: flex;
-            flex-direction: row;
-            justify-content: center;
+            align-items: center;
             grid-template-columns: repeat(2, 2fr);
             display: grid;
             grid-gap: 1.5rem;
+            
 
 
             .section-child{
@@ -138,14 +137,23 @@ main{
 
             .text-main{
                  
-
+                margin-left: 55px;
+            
             }
             .text-main h1{
 
               color:#224580;
-              font-size: 100px;
+              font-size: 90px;
+              margin-bottom: 10px;
 
             }
+            .text-main h2{
+
+                color:#224580;
+                font-size: 30px;
+                font-weight: 50;
+  
+              }
         }
 
        .medium-container-2{
