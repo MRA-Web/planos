@@ -69,7 +69,9 @@ header{
                 a{
                     display: flex;
                     justify-items: center;
-                    padding: 15px;
+                    padding: 8px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                    
                 }
                
@@ -90,7 +92,7 @@ header{
 main{
      /* distanciando do header e do footer */
     color: white;
-    max-width: 1440px;
+    max-width: 1540px;
     margin: 0 auto;
     min-height: 100vh;
     .main-section-container {
