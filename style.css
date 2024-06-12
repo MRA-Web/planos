@@ -77,12 +77,18 @@ header{
                 a:hover{
                     color: white;
                 }
-                
-                
             }
-              li:hover {
+
+            li:hover {
                 background-color: #284b78;
-                
+            }
+
+            li.inicio {
+                border-radius: 30px;
+                background-color: #284b78; /* Para que o efeito de cor seja visível */
+                a {
+                    color: white; /* Para que o texto fique visível */
+                }
             }
         }
     }
@@ -122,8 +128,6 @@ main{
             grid-template-columns: repeat(2, 2fr);
             display: grid;
             grid-gap: 1.5rem;
-            
-
 
             .section-child{
                 border-radius: 0;
@@ -136,29 +140,43 @@ main{
             }
 
             .text-main{
-                 
                 margin-left: 55px;
-            
             }
+
             .text-main h1{
-
-              color:#224580;
-              font-size: 90px;
-              margin-bottom: 10px;
-
+                color:#224580;
+                font-size: 90px;
+                margin-bottom: 10px;
             }
-            .text-main h2{
 
+            .text-main h2{
                 color:#224580;
                 font-size: 30px;
                 font-weight: 50;
-  
-              }
+            }
         }
 
        .medium-container-2{
-            background-color: #white;
-            .section-child{background-color:#0c083b;}
+            background-color: white;
+            grid-template-columns: 100%;
+            display: grid;
+            grid-gap: 1.5rem;
+
+           .text-main-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* Ajuste a altura conforme necessário */
+
+            h1{
+                color: #224580;
+                font-size: 70px;
+            }
+           }
+
+            .section-child{
+                background-color:#0c083b;
+            }
         }
     }
 }
@@ -166,7 +184,6 @@ main{
 footer{
     /* a cor do background está definida 
     em conjunto com o header (acima)*/
-
     bottom: 0;
     color: #224580;
     height: 100px;
