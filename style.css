@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #88aded;
+    background-color: aliceblue;
     a{text-decoration: none;}
 }
 
@@ -15,25 +15,23 @@ body, header, main, footer{
 }
 
 header, footer{
-    background-color: #6088cd94;
+    background-color: #84c1ed;
     backdrop-filter: blur(10px);
-    box-shadow: 0px 3px 10px #09204794;
+    box-shadow: 0px 3px 10px #29404f;
 }
 
 header{
     /* a cor do background está definida 
     em conjunto com o footer (acima)*/
-
     /* position: fixed; */
     top: 0;
-    padding: 10px;
     height: 70px;
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 50% 50%;
     align-content: center;
 
     *{ /* todos dentro do header */
-        color: #fff;
+        color:#224580;
         align-content: center;
         text-align: center;
     }
@@ -41,7 +39,7 @@ header{
     a.logo{
         display: flex;
         margin: 0 20px;
-        color: white;
+      
         text-decoration: none;
     }
 
@@ -63,41 +61,42 @@ header{
             flex-direction: row;
 
             li{
-                margin: 0 15px;
-                a{
-                    display: grid;
-                    grid-template-rows: 70% 30%;
-                    justify-items: center;
-                    
-                    hr{
-                        overflow: hidden;
-                        border-width: 0 0 3px 0;
-                        border-radius: 3px;
-                        width: 0;
-                        transition: all 0.4s;
-                    }
-                }
+                margin: 0 28px;
+                margin-bottom: 8px;
+                border-radius: 30px;
+                transition: background-color 0.5s ease;
 
-                :hover{ /* quando o li está sob hover*/
-                    hr{
-                        overflow: visible;
-                        width: 100%;
-                        color: #ffffff;
-                        transition: all 0.4s;
-                    }
+                a{
+                    display: flex;
+                    justify-items: center;
+                    padding: 8px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                   
                 }
+               
+                a:hover{
+                    color: white;
+                }
+                
+                
+            }
+              li:hover {
+                background-color: #284b78;
+                
             }
         }
     }
 }
 
 main{
-    margin: 70px 0 40px 0; /* distanciando do header e do footer */
+     /* distanciando do header e do footer */
     color: white;
-    min-height : 100%;
-
+    max-width: 1540px;
+    margin: 0 auto;
+    min-height: 100vh;
     .main-section-container {
-        padding: 20px 0;
+        
         display: grid;
         justify-items: center;
 
@@ -147,7 +146,7 @@ footer{
     em conjunto com o header (acima)*/
 
     bottom: 0;
-    color: white;
+    color: #224580;
     height: 100px;
     align-content: center;
     text-align: center;
