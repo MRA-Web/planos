@@ -96,7 +96,7 @@ main{
     margin: 0 auto;
     min-height: 100vh;
     .main-section-container {
-        padding: 20px 0;
+        
         display: grid;
         justify-items: center;
 
