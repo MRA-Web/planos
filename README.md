@@ -3,11 +3,13 @@
 ## Site planos de saúde
 
 ### -1. Requisitos que são comuns em sites deste tipo:
+
   - Opção para contato direto, principalmente Whatsapp
   - Informações de contato do corretor como nº de telefone, instagram, email…
   - Sobre o corretor, ou sobre a {nome-do-site}, ou sobre nós
 
 ### -2. Requisitos específicos:
+
   ( aqui vai se parecer um pouquinho com a contratação de um serviço ou compra de um produto, então pra quem tá querendo contratar um plano de saúde pela internet a gente vai adiantar ao máximo o processo)
   - Opções de plano para que o cliente vá clicando onde é o mais específico para ele, ou seja, que ele escolha o que quer.
   - Opções da empresa de plano específica, já dentro do tipo de plano.
