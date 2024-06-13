@@ -18,6 +18,9 @@ a {
 /* definindo os que vão preencher a largura toda da página */
 body, header, main, footer {
     width: 100% !important;
+    background-color: #F8FAFC; /* Fundo suave */
+    overflow-x: hidden;
+    
 }
 
 header, footer {
