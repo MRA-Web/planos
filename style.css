@@ -39,6 +39,9 @@ header a.logo {
     margin: 0 20px;
     text-decoration: none;
 }
+header .logo-img{
+    width: 200px;
+}
 nav.barra-navegacao {
     display: grid;
     place-self: center;
@@ -58,8 +61,10 @@ nav.barra-navegacao ul {
 nav.barra-navegacao ul li {
     margin: 0 28px;
     margin-bottom: 8px;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    
+    transition: all 0.3s ease;
 }
 nav.barra-navegacao ul li a {
     display: flex;
@@ -68,21 +73,21 @@ nav.barra-navegacao ul li a {
     padding-left: 20px;
     padding-right: 20px;
     white-space: nowrap;
-    color: #FFFFFF; /* Texto azul escuro */
-}
-nav.barra-navegacao ul li a:hover {
     color: #FFFFFF;
 }
 nav.barra-navegacao ul li:hover {
-    background-color: #499cd3; /* Azul claro */
+    /* background-color: #499cd3; */
+    /* transform: scale(1.2); */
+    
+    box-shadow: 0px 0px 95px 35px rgba(28,28,28,1);
+    border: solid 1px #575757;
+    
+    transition: all 0.3s ease-in-out;
 }
-nav.barra-navegacao ul li.inicio {
-    border-radius: 30px;
-    background-color: #499cd3; /* Azul claro */
-}
-nav.barra-navegacao ul li.inicio a {
-    color: #FFFFFF;
-}
+/* nav.barra-navegacao ul li a:hover {
+    
+    color: #2C3E50;
+} */
 main {
     color: #2C3E50; /* Azul escuro */
     max-width: 1540px;
