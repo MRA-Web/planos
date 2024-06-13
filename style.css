@@ -7,7 +7,6 @@
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-
 body {
     background-color: #F8FAFC; /* Fundo suave */
     overflow-x: hidden;
@@ -15,23 +14,19 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
 a {
     text-decoration: none;
 }
-
 /* definindo os que vão preencher a largura toda da página */
 body, header, main, footer {
     width: 100% !important;
     background-color: #F8FAFC; /* Fundo suave */
     overflow-x: hidden;
 }
-
 header, footer {
     background-color: #2C3E50; /* Azul escuro */
     backdrop-filter: blur(10px);
 }
-
 header {
     top: 0;
     height: 70px;
@@ -39,45 +34,38 @@ header {
     grid-template-columns: 50% 50%;
     align-content: center;
 }
-
 header * {
     color: #ECF0F1; /* Texto branco gelo */
     align-content: center;
     text-align: center;
 }
-
 header a.logo {
     display: flex;
     margin: 0 20px;
     text-decoration: none;
 }
-
 nav.barra-navegacao {
     display: grid;
     place-self: center;
     margin-top: 15px;
     font-size: 120%;
 }
-
 nav.barra-navegacao * {
     align-content: center;
     text-align: center;
     align-items: center;
 }
-
 nav.barra-navegacao ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
-
 nav.barra-navegacao ul li {
     margin: 0 28px;
     margin-bottom: 8px;
     border-radius: 30px;
     transition: background-color 0.3s ease;
 }
-
 nav.barra-navegacao ul li a {
     display: flex;
     justify-items: center;
@@ -87,24 +75,19 @@ nav.barra-navegacao ul li a {
     white-space: nowrap;
     color: #FFFFFF; /* Texto azul escuro */
 }
-
 nav.barra-navegacao ul li a:hover {
     color: #FFFFFF;
 }
-
 nav.barra-navegacao ul li:hover {
     background-color: #499cd3; /* Azul claro */
 }
-
 nav.barra-navegacao ul li.inicio {
     border-radius: 30px;
     background-color: #499cd3; /* Azul claro */
 }
-
 nav.barra-navegacao ul li.inicio a {
     color: #FFFFFF;
 }
-
 main {
     color: #2C3E50; /* Azul escuro */
     max-width: 1540px;
@@ -112,25 +95,21 @@ main {
     flex: 1; /* Adicionado para expandir o main e empurrar o footer para baixo */
     min-height: 100vh;
 }
-
 .main-section-container {
     display: grid;
     justify-items: center;
 }
-
 .medium-container-1, .medium-container-2 {
     height: fit-content;
     padding: 50px 0;
     width: 100%;
 }
-
 .section-child {
     border-radius: 10px;
     padding: 30px;
     margin: 15px 15px;
     box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.1);
 }
-
 .medium-container-1 {
     background-color: #ECF0F1; /* Fundo branco gelo */
     display: flex;
@@ -139,7 +118,6 @@ main {
     display: grid;
     grid-gap: 1.5rem;
 }
-
 .medium-container-1 .section-child {
     border-radius: 0;
     background-color: #FFFFFF; /* Fundo branco */
@@ -149,18 +127,15 @@ main {
     align-content: center;
     width: 30%;
 }
-
 .medium-container-1 .text-main {
     margin-left: 55px;
 }
-
 .medium-container-1 .text-main h1 {
     color: #2C3E50; /* Texto azul escuro */
     font-size: 90px;
     margin-bottom: 10px;
     font-family: "Roboto", sans-serif;
 }
-
 .medium-container-1 .text-main h2 {
     color: #2C3E50; /* Texto azul escuro */
     font-size: 30px;
@@ -228,14 +203,12 @@ main {
         }
     }
 }
-
 footer {
     color: #ECF0F1; /* Texto branco gelo */
     height: 100px;
     align-content: center;
     text-align: center;
 }
-
 .footer-section-container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
