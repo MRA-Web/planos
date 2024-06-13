@@ -169,67 +169,62 @@ main {
     font-family: "Montserrat", sans-serif;
 }
 
-        .medium-container-2 {
-            background-color: #FFFFFF; /* Fundo branco */
-            display: flex;
-            flex-direction: column; /* Alterado para coluna */
-            align-items: center;
-            text-align: center;
-            padding: 50px 0;
+.medium-container-2 {
+    background-color: #FFFFFF; /* Fundo branco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
 
-            .text-main-2 {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                height: 100%;
-                width: 100%;
+.medium-container-2 .text-main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 
-                h1 {
-                    color: #2C3E50; /* Texto azul escuro */
-                    font-size: 70px;
-                    font-family: "Roboto", sans-serif;
-                }
+.medium-container-2 .text-main-2 h1 {
+    color: #2C3E50; /* Texto azul escuro */
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+}
 
-                .button-main {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 20px; /* Espaço entre o texto e o botão */
-                }
+.medium-container-2 .button-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre o texto e o botão */
+}
 
-                #botton1 {
-                    padding-left: 45px;
-                    padding-right: 45px;
-                    padding-bottom: 18px;
-                    padding-top: 18px;
-                    border-radius: 12px;
-                    background: #499cd3;
-                    border: none;
-                    font-family: 'Montserrat', sans-serif;
-                    font-size: medium;
-                    text-align: center;
-                    cursor: pointer;
-                    transition: 0.4s;
-                    color: #fff;
-                }
-                
-                #botton1:hover {
-                    box-shadow: 7px 5px 56px -14px #3b88bc;
-                }
-                
-                #botton1:active {
-                    transform: scale(0.97);
-                    box-shadow: 7px 5px 56px -10px #3b88bc;
-                }
-            }
+.medium-container-2 #botton1 {
+    padding: 16px 33px;
+    border-radius: 9px;
+    background: #499cd3;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #fff;
+}
 
-            .section-child {
-                background-color: #2C3E50; /* Fundo azul escuro */
-                color: #FFFFFF; /* Texto branco */
-            }
-        }
-    
+.medium-container-2 #botton1:hover {
+    box-shadow: 7px 5px 56px -14px #3b88bc;
+}
+
+.medium-container-2 #botton1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #3b88bc;
+}
+
+.medium-container-2 .section-child {
+    background-color: #2C3E50; /* Fundo azul escuro */
+    color: #FFFFFF; /* Texto branco */
+}
 
 .icon-text-container {
     display: flex;
@@ -237,9 +232,9 @@ main {
     width: 100%;
     margin: 20px 0;
     gap: 20px; /* Espaço entre o h1 e o botão */
-  }
+}
   
-  .icon-text {
+.icon-text {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -247,16 +242,16 @@ main {
 .icon-text i {
     margin-right: 8px; /* Espaço entre o ícone e o texto */
     color: #499cd3; /* Ajuste a cor do ícone conforme necessário */
-  }
+}
 
-  .card-container {
+.card-container {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
     gap: 20px;
-  }
+}
   
-  .card {
+.card {
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -267,11 +262,10 @@ main {
     font-size: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-  }
-  .card:hover{
+}
+.card:hover{
     transform: scale(1.06);
-  }
-  
+}   
 
 footer {
     color: #ECF0F1; /* Texto branco gelo */
