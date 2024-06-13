@@ -27,7 +27,7 @@ body, header, main, footer {
 }
 
 header, footer {
-    background-color: #2C3E50; /* Azul escuro */
+    background-color: #3B8155; /* Azul escuro */
     backdrop-filter: blur(10px);
 }
 
@@ -49,7 +49,8 @@ header * {
 
 header a.logo {
     display: flex;
-    margin: 50px 20px;
+    margin: 50px 30px;
+    width: 100px;
     text-decoration: none;
 }
 
@@ -78,8 +79,8 @@ nav.barra-navegacao ul {
 
 nav.barra-navegacao ul li {
     margin: 0 28px;
-    margin-bottom: 8px;
-    border-radius: 5px;
+    margin-bottom: 15px;
+    border-radius: 35px;
     transition: background-color 0.3s;
 }
 
@@ -97,17 +98,27 @@ nav.barra-navegacao ul li a:hover {
 }
 
 nav.barra-navegacao ul li:hover {
-    background-color: #499cd3; /* Azul claro */
+    background-color: #18362B; /* Verde escuro*/
 }
 
 nav.barra-navegacao ul li.inicio {
-    border-radius: 5px;
-    background-color: #499cd3; /* Azul claro */
+    border-radius: 35px;
+    background-color: #18362B; /* Verde escuro */
 }
 
 nav.barra-navegacao ul li.inicio a {
     color: #FFFFFF;
 }
+
+.botao-celular{
+    display: none;
+}
+.menu-celular{
+    display: none;
+}
+
+
+/* CORPO DO SITE */
 
 main {
     color: #2C3E50; /* Azul escuro */
@@ -203,7 +214,7 @@ main {
 .medium-container-2 #botton1 {
     padding: 16px 33px;
     border-radius: 9px;
-    background: #499cd3;
+    background: #18362B;
     border: none;
     font-family: inherit;
     text-align: center;
@@ -277,4 +288,35 @@ footer {
 .footer-section-container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media screen and (max-width: 1050px) {
+    .logo img{
+        margin-top: 9px;
+       
+    }
+    .barra-navegacao ul li{
+        display: none;
+    }
+
+    .botao-celular{
+        display: flex;
+        margin-left: 95px;
+
+    }
+    .botao-celular button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-celular ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+        
+    }
+    .open{
+        display: block;
+    }
 }
