@@ -184,6 +184,7 @@ main {
                     text-align: center;
                     cursor: pointer;
                     transition: 0.4s;
+                    color: #fff;
                 }
                 
                 #botton1:hover {
