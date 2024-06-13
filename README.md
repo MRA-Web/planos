@@ -21,3 +21,5 @@
   - Opção 1 (compra não automatizada): deve ser oferecida a opção de contactar o corretor para consumar a compra do plano de saúde. Deve ser preparada uma mensagem ao corretor com o tipo de plano 
   - Opção 2 (compra automatizada): o corretor receberá uma notificação com a preferência específica de contratação do cliente, bem como os dados do mesmo para que possa efetuar a contratação.
   - No caso dos planos odontológicos, a contratação pode ser feita pelo próprio usuário por intermédio de um link.
+
+teste
