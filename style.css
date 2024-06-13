@@ -199,14 +199,14 @@ main {
                 }
 
                 #botton1 {
-                    padding-left: 33px;
-                    padding-right: 33px;
-                    padding-bottom: 16px;
-                    padding-top: 16px;
-                    border-radius: 9px;
+                    padding-left: 45px;
+                    padding-right: 45px;
+                    padding-bottom: 18px;
+                    padding-top: 18px;
+                    border-radius: 12px;
                     background: #499cd3;
                     border: none;
-                    font-family: inherit;
+                    font-family: 'Montserrat', sans-serif;
                     text-align: center;
                     cursor: pointer;
                     transition: 0.4s;
