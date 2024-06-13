@@ -244,14 +244,14 @@ main {
     color: #499cd3; /* Ajuste a cor do ícone conforme necessário */
 }
 
-.card-container {
+.medium-container-3 .card-container {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
     gap: 20px;
 }
   
-.card {
+.medium-container-3 .card-container .card {
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -263,7 +263,7 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-.card:hover{
+.medium-container-3 .card-container .card:hover{
     transform: scale(1.06);
 }   
 
