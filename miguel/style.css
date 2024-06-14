@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8FAFC; /* Fundo suave */
+    overflow-x: hidden; /* Evita barra de rolagem horizontal */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Definindo os que vão preencher a largura toda da página */
+body, header, main, footer {
+    width: 100%;
+    background-color: #F8FAFC; /* Fundo suave */
+}
+
+header, footer {
+    background-color: #18362B; /* Azul escuro */
+    backdrop-filter: blur(10px);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    overflow: hidden; /* Evita estouro de largura */
+}
+
+header * {
+    color: #ECF0F1; /* Texto branco gelo */
+    align-content: center;
+    text-align: center;
+}
+
+header a.logo {
+    display: flex;
+    margin: 50px 30px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 200px;
+}
+
+nav.barra-navegacao {
+    display: grid;
+    place-self: center;
+    margin-top: 15px;
+    font-size: 120%;
+}
+
+nav.barra-navegacao * {
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+nav.barra-navegacao ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav.barra-navegacao ul li {
+    margin: 0 28px;
+    margin-bottom: 15px;
+    border-radius: 35px;
+    transition: background-color 0.3s;
+}
+
+nav.barra-navegacao ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    white-space: nowrap;
+    color: #FFFFFF; /* Texto azul escuro */
+}
+
+nav.barra-navegacao ul li a:hover {
+    color: #FFFFFF;
+}
+
+nav.barra-navegacao ul li:hover {
+    background-color: #396977; /* Verde escuro*/
+}
+
+nav.barra-navegacao ul li.inicio {
+    border-radius: 35px;
+    background-color: #396977; /* Verde escuro */
+}
+
+nav.barra-navegacao ul li.inicio a {
+    color: #FFFFFF;
+}
+
+.botao-celular{
+    display: none;
+}
+.menu-celular{
+    display: none;
+}
+
+
+/* CORPO DO SITE */
+
+main {
+    color: #2C3E50; /* Azul escuro */
+    max-width: 1540px;
+    margin: 90px auto 0 0;
+    flex: 1;
+}
+
+.main-section-container {
+    display: grid;
+    justify-items: center;
+}
+
+.medium-container-1, .medium-container-2 {
+    height: fit-content;
+    padding: 50px 0;
+    width: 100%;
+}
+.medium-container-planos{
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+}
+.medium-container-planos div{
+    padding: 100px 0;
+    text-align: center;
+}
+.card-plano{
+    color: white;
+    flex: 1;
+    transition: all 0.4s;
+}
+.card-plano:hover{
+    flex: 2;
+    cursor: pointer;
+}
+.card-plano h1{
+    font-size: 1.2em;
+}
+#individuais{
+    background-color: #396977;
+}
+#adesao{
+    background-color: #3EE0C3;
+    color: #18362B;
+}
+#odontologicos{
+    background-color: #18362B;
+}
+#empresariais{
+    background-color: #C1F130;
+    color: #18362B;
+}
+.section-child {
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px 15px;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0, 0.1);
+}
+
+.medium-container-1 {
+    background-color: #ECF0F1; /* Fundo branco gelo */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1.5rem;
+}
+
+.medium-container-1 .section-child {
+    border-radius: 0;
+    background-color: #FFFFFF; /* Fundo branco */
+    color: #2C3E50; /* Texto azul escuro */
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    width: 30%;
+}
+
+.medium-container-1 .text-main {
+    margin-left: 55px;
+}
+
+.medium-container-1 .text-main h1 {
+    color: #2C3E50; /* Texto azul escuro */
+    font-size: 90px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.medium-container-1 .text-main h2 {
+    color: #2C3E50; /* Texto azul escuro */
+    font-size: 30px;
+    font-weight: 450;
+    font-family: "Montserrat", sans-serif;
+}
+
+.medium-container-2 {
+    background-color: #FFFFFF; /* Fundo branco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.medium-container-2 .text-main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.medium-container-2 .text-main-2 h1 {
+    color: #2C3E50; /* Texto azul escuro */
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+.medium-container-2 .button-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre o texto e o botão */
+}
+
+.medium-container-2 #botton1 {
+    padding: 16px 33px;
+    border-radius: 9px;
+    background: #18362B;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #fff;
+}
+
+.medium-container-2 #botton1:hover {
+    box-shadow: 7px 5px 56px -14px #3b88bc;
+}
+
+.medium-container-2 #botton1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #3b88bc;
+}
+
+.medium-container-2 .section-child {
+    background-color: #2C3E50; /* Fundo azul escuro */
+    color: #FFFFFF; /* Texto branco */
+}
+
+.icon-text-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+    gap: 20px; /* Espaço entre o h1 e o botão */
+}
+  
+.icon-text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.icon-text i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    color: #499cd3; /* Ajuste a cor do ícone conforme necessário */
+}
+
+.medium-container-3 .card-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+  
+.medium-container-3 .card-container .card {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.medium-container-3 .card-container .card:hover{
+    transform: scale(1.06);
+}   
+
+footer {
+    color: #ECF0F1; /* Texto branco gelo */
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
+
+.footer-section-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media screen and (max-width: 1050px) {
+    .logo img{
+        margin-top: 9px;
+       
+    }
+    .barra-navegacao ul li{
+        display: none;
+    }
+
+    .botao-celular{
+        display: flex;
+        margin-left: 95px;
+
+    }
+    .botao-celular button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .menu-celular ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+        
+    }
+    .open{
+        display: block;
+    }
+}
