@@ -318,19 +318,20 @@ footer {
     display: inline-block; /* Garante que o link respeite as dimensões especificadas */
     margin-bottom: -30px;
     margin-top: -50px;
-    margin-left: -15px;
+    margin-left: -12px;
+    zoom: 150%;
 }
 .footer-conteudo{
     display: flex;
 }
 .footer-conteudo ul{
     width: 50%;
-    margin-top: 60px;
+    margin-top: 75px;
     list-style: none;
 }
 .footer-conteudo .ul-1{
-    margin-top: 30px;
-   padding-right: 80px;
+    margin-top: 10px;
+   
 }
 .footer-conteudo .ul-1 p{
  
@@ -346,10 +347,7 @@ footer {
 .footer-conteudo h2{
     display: inline-block;
     color: white;
-    background-color: #18362B;
-    border-radius: 30px;
     margin-bottom: 25px;
-    padding: 0 25px; 
    
 }
 .footer-conteudo li{
@@ -367,6 +365,7 @@ footer {
 .footer-icones{
     display: inline-flex;
     zoom: 150% ;
+    margin-top: 10px;
 }
 .footer-link-social{
     display: flex;
