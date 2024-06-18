@@ -7,37 +7,7 @@
     <title>Planos</title>
   </head>
   <body>
-    <header>
-      <a href="#" class="logo">
-        <img src="logos/transparente/2.svg" alt="" class="logo-img">
-      </a>
-  
-      <nav class="barra-navegacao">
-        <ul>
-          <li class="inicio"><a href="#">Início</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Serviços</a></li>
-        </ul>
-
-        <div class="botao-celular">
-          <button onclick="menuShow()"> 
-            <img class="icon" src="/mobile-icons/menu_white_36dp.svg">
-          </button>
-        </div>
-        
-        <div class="menu-celular">
-          <ul>
-            <li class="inicio"><a href="#">Início</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Serviços</a></li>
-          </ul>
-        </div>
-
-      </nav>
-      
-    </header>
+    <?php include 'header.php'; ?>
 
     <main>
       <!-- Seção principal (contém todas) -->
@@ -46,8 +16,6 @@
         <section>
           mudanca
         </section>
-
-
 
 
         <!-- seção média 1 (contém outras) -->
@@ -59,13 +27,7 @@
           <div><img src=""></div>
         </section>
 
-        <section class="medium-container-planos">
-          <div class="card-plano" id="individuais"><h1>Planos individuais</h1></div>
-          <div class="card-plano" id="adesao"><h1>Planos por adesão</h1></div>
-          <div class="card-plano" id="empresariais"><h1>Planos empresariais</h1></div>
-          <div class="card-plano" id="odontologicos"><h1>Planos odontológicos</h1></div>
-        </section> 
-
+        
         <!-- seção média 2 (contém outras) -->
         <section class="medium-container-2">
           <div class="text-main-2">
@@ -89,7 +51,14 @@
             </div>
           </div>
         </section>
-       
+
+        <section class="medium-container-planos">
+          <div class="card-plano" id="individuais"><h1>Planos individuais</h1></div>
+          <div class="card-plano" id="adesao"><h1>Planos por adesão</h1></div>
+          <div class="card-plano" id="empresariais"><h1>Planos empresariais</h1></div>
+          <div class="card-plano" id="odontologicos"><h1>Planos odontológicos</h1></div>
+        </section> 
+        
         <section class="medium-container-3">
           <div class="card-container">
             <div class="card">Imagem 1</div>

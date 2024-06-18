@@ -306,6 +306,7 @@ main {
     align-items: center;
     font-size: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     transition: transform 0.3s ease;
 }
 .medium-container-3 .card-container .card:hover{
