@@ -1,0 +1,39 @@
+Planos individuais:
+  Unimed Recife:
+    UniRede Recife (Municipal)
+    UniRede Pernambuco (Estadual)
+    Prata Extra (Estadual + rede maior)
+    Diamante (Nacional + rede maior)
+
+  Hapvida:
+    - tipo 1
+    - tipo 2
+
+Planos por adesão:
+  Amil
+  Unimed (Allcare)
+  SulAmerica
+  Hapvida
+  Blue Saúde
+  Ampla Saúde
+  SB Saúde
+  You Saúde
+
+Odontológicos:
+  Amil Dental
+  Clin Dental
+  Odontoprev
+  Hapvida Odonto
+  Unimed Odonto
+  ...
+
+Empresariais:
+  Unimed Empresarial (e tipos)
+  Hapvida (Super simples ou PME)
+  Bradesco Empresa (e tipos)
+  Amil Dental (empresarial)
+  SulAmerica Empresarial
+  You Saúde Empresarial
+  Blue Saúde Empresarial
+
+
